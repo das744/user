@@ -1,0 +1,21 @@
+
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/646d9bf4afafa54cad0835af
+
+
+###
+
+POST http://localhost:5000/createUser
+Content-Type: application/json
+
+{
+   " name": "abc",
+    "pho": "098",
+    "message":"Hi"
+}
+###
+DELETE  http://localhost:5000/delete/64657d525d29c24106e5abcc
+
+PATCH   http://localhost:5000/api/getOne/500
